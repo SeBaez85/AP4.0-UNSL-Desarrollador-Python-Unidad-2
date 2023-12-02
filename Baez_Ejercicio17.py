@@ -1,0 +1,8 @@
+print("Vamos a calcular el capital obtenido en su inversión al cabo de tres años")
+cantidadAInvertir = float(input("Ingrese una cantidad a invertir: "))
+capitalObtenidoUnAnio = cantidadAInvertir + (cantidadAInvertir * 4/100)
+capitalObtenidoDosAnios = capitalObtenidoUnAnio + (capitalObtenidoUnAnio * 4/100)
+capitalObtenidoTresAnios = capitalObtenidoDosAnios + (capitalObtenidoDosAnios * 4/100)
+print("El capital obtenido al cabo de un año es: ", round(capitalObtenidoUnAnio, 2))
+print("El capital obtenido al cabo de dos años es: ", round(capitalObtenidoDosAnios, 2))
+print("El capital obtenido al cabo de tres años es: ", round(capitalObtenidoTresAnios, 2))

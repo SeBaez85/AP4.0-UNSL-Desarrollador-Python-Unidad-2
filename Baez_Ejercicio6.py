@@ -1,0 +1,7 @@
+print("Vamos a calcular el promedio entre 5 numeros")
+num1 = float(input("Ingrese el primer numero: "))
+num2 = float(input("Ingrese el segundo numero: "))
+num3 = float(input("Ingrese el tercer numero: "))
+num4 = float(input("Ingrese el cuarto numero: "))
+num5 = float(input("Ingrese el quinto numero: "))
+print("El promedio entre los cinco numeros es: ", (num1 + num2 + num3 + num4 + num5)/5)

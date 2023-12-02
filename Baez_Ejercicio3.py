@@ -1,0 +1,6 @@
+print("Vamos a calcular varias operaciones")
+primerNumeroIngresado = int(input("Ingrese el primer operando: "))
+segundoNumeroIngresado = int(input("Ingrese el segundo operando: "))
+print("La suma de los números ingresados es: ", primerNumeroIngresado + segundoNumeroIngresado)
+print("La resta de los números ingresados es: ", primerNumeroIngresado - segundoNumeroIngresado)
+print("La multiplicación de los números ingresados es: ", primerNumeroIngresado * segundoNumeroIngresado)

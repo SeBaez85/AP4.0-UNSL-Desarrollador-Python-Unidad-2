@@ -1,0 +1,5 @@
+print("Vamos a calcular el peso total del paquete que será enviado con payasos y muñecas de la juguetería")
+cantPayasos = int(input("Ingrese la cantidad de payasos vendidos en el último pedido: "))
+cantMuniecas = int(input("Ingrese la cantidad de muñecas vendidas en el último pedido: "))
+peso = (cantPayasos * 112) + (cantMuniecas * 75)
+print("El peso total del paquete que será enviado con payasos y muñecas es: ", peso, "gr o", round(peso/1000, 2), "kg")

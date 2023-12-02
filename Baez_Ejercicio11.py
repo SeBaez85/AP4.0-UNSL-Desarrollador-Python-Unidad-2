@@ -1,0 +1,6 @@
+print("Vamos a calcular cuánto cobra")
+nombreIngresado = input("Ingrese nombre: ")
+cantidadHorasTrabajadas = int(input("Ingrese la cantidad de horas trabajadas: "))
+costoHora = float(input("Ingrese el costo de la hora: "))
+print(f"{nombreIngresado} cobra: {cantidadHorasTrabajadas * costoHora} pesos")
+#print("Su nombre es", nombreIngresado, "y cobra: ", cantidadHorasTrabajas * costoHora)
